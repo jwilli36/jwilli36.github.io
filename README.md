@@ -22,7 +22,7 @@ You can view Map by downloading files and open index.html in a browser.
 
 
 
-Site can be viewed at  http://jwilli36.github.io
+Site can be viewed at  https://jwilli36.github.io
 
 
 

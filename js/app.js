@@ -4,14 +4,6 @@
 
 var places = [
 	{
-		name: 'Apostolic Church of God',
-		address: '6320 S. Dorchester Ave, Chicago, IL 60637',
-		lat: 41.7801382,
-		lng: -87.5926356,
-		info: 'Church of God',
-		tags: ['Church'],
-	},
-	{
 		name: 'Grand Lux Café',
 		address: '600 N Michigan Ave, Chicago, IL 60411',
 		lat: 41.8932,
@@ -20,23 +12,23 @@ var places = [
 		tags: ['Food', 'Dessert']
 	},
 	{
-		name: 'Sugar Shack',
-		address: '630 W 26th St, Chicago, IL 60616',
-		lat: 41.8455135,
-		lng: -87.6428153,
-		info: 'Ice cream and cakes',
+		name: 'Banderas',
+		address: '535 N Michigan, Chicago, IL 60611',
+		lat: 41.8919588,
+		lng: -87.6257154,
+		info: 'Great Food',
 		tags: ['Dessert']
 	},
 	{
-		name: 'Lumes Pancake House',
-		address: '11601 S Western, Chicago, Il 60643',
-		lat: 41.682408,
-		lng: -87.6804617,
+		name: 'Chi Tung Restaurant',
+		address: '9560 S Kedzie, Chicago, Il 60805',
+		lat: 41.7190028,
+		lng: -87.7042461,
 		info: 'Breakfast Restaurant',
-		tags: ['Family', 'Breakfast']
+		tags: ['Family', 'Chinese']
 	},
 	{
-		name: 'STACKED',
+		name: 'Stacked',
 		address: '5237 W 95th St, Oak Lawn, IL 60453',
 		lat: 41.7196111,
 		lng:  -87.7528999,
@@ -44,31 +36,40 @@ var places = [
 		tags: ['Breakfast']
 	},
 	{
-		name: 'Jazz Showcase',
-		address: '806 S Plymouth Ct, Chicago, IL 60605',
-		lat: 41.8717103,
-		lng: -87.6288108,
-		info: 'Jazz Music',
+		name: 'The Private Bank Theater',
+		address: '18 W Monroe St, Chicago, IL 60603',
+		lat: 41.8808689,
+		lng: -87.6306754,
+		info: 'Plays',
 		tags: ['Entertainment', 'Music']
 	},
 	{
-		name: 'Weber\'s, Bakery',
-		address: '7055 W Archer Ave, Chicago, IL 60638',
-		lat: 41.7917142,
-		lng: -87.7986611,
-		info: 'Breakfast',
+		name: 'CheeseCake Factory',
+		address: '304 Orland Square Dr., Orland Park, IL 60462',
+		lat: 41.620117,
+		lng: -87.8516467,
+		info: 'Restaurant',
 		tags: ['Food', 'Dessert']
 	},
 	{
-		name: 'Publican Quality Meats',
-		address: '825 W Fulton Market, Chicago, IL 60607',
-		lat: 41.8866042,
-		lng: -87.6485378,
+		name: 'Jason Deli',
+		address: '1258 S Canal St, Chicago, IL 60607',
+		lat: 41.865574,
+		lng: -87.642435,
 		info: 'Deli',
+		tags: ['Food', 'Drinks']
+	},
+	{
+		name: 'California Pizza Kitchen',
+		address: '551 Oakbrook center, Oak Brook, IL 60521',
+		lat: 41.852198,
+		lng: -87.953863,
+		info: 'Restaurant',
 		tags: ['Food', 'Drinks']
 	}
 ];
-
+		
+	
 //         GOOGLE MAPS        
 var gMap = {
 	map: {},
